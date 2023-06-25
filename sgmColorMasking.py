@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 """PRE-PROCESSING"""
 
 """Step 1 --- Load image"""
-image = cv2.imread('cabai3.jpg')
+image = cv2.imread('infectedleaf.jpg')
 h,w,c = image.shape
 print(h,"px", w, "px")
 
